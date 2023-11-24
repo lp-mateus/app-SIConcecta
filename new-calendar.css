@@ -281,6 +281,7 @@
 }
 
 .fc-header-toolbar {
+    padding-top: 1.5em;
     padding-bottom: 1.5em;
     background-color: #0047B6
 }
@@ -445,12 +446,6 @@
 .fc .fc-highlight {
     background: rgba(188, 232, 241, .3);
     background: var(--fc-highlight-color, rgba(188, 232, 241, .3))
-}
-
-.fc .fc-cell-shaded,
-.fc .fc-day-disabled {
-    background: rgba(208, 208, 208, .3);
-    background: var(--fc-neutral-bg-color, rgba(208, 208, 208, .3))
 }
 
 a.fc-event,
