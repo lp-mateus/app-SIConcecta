@@ -8,5 +8,5 @@ navLinks: true,
 headerToolbar: {
     start: 'title', 
     center: '',
-    end: 'today,dayGridMonth prev,next' 
+    end: 'dayGridMonth,today prev,next' 
 }"
