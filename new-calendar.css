@@ -281,8 +281,7 @@
 }
 
 .fc-header-toolbar {
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    padding: 1.5em 1em 1em 1em;
     background-color: #0047B6
 }
 
@@ -293,7 +292,9 @@
 .fc .fc-toolbar-title {
     font-size: 1.75em;
     margin: 0;
-    padding-left: 0.5rem;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
     color: #FFF
 }
 
@@ -417,6 +418,9 @@
 .fc .fc-col-header-cell-cushion {
     display: inline-block;
     padding: 2px 4px;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
     color: #FFF !important;
 }
 
@@ -682,7 +686,7 @@ a.fc-event:hover {
 }
 
 .fc .fc-daygrid-day.fc-day-today {
-    background-color: #F2F9FF
+    background-color: #A7CBFF
 }
 
 .fc-daygrid-day {
@@ -696,7 +700,8 @@ a.fc-event:hover {
 
 .fc .fc-daygrid-day-top {
     display: flex;
-    flex-direction: row-reverse
+    flex-direction: row;
+    justify-content: center
 }
 
 .fc .fc-day-other .fc-daygrid-day-top {
@@ -707,7 +712,10 @@ a.fc-event:hover {
     position: relative;
     z-index: 4;
     padding: 4px;
-    color: #657388;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    color: #657388
 }
 
 .fc .fc-daygrid-day-events {
