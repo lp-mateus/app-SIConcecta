@@ -837,7 +837,8 @@ a.fc-event:hover {
 .fc-daygrid-event {
     position: relative;
     white-space: nowrap;
-    border-radius: 3px;
+    border: none;
+    border-radius: 2px;
     font-size: .85em;
     font-size: var(--fc-small-font-size, .85em)
 }
