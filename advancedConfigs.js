@@ -4,7 +4,7 @@ titleFormat: { month: 'long' },
 dayHeaderFormat: { weekday: 'narrow', omitCommas: true },
 fixedWeekCount: false,
 showNonCurrentDates: false,
-navLinks: true, 
+navLinks: false, 
 eventTimeFormat: {
     hour: '2-digit',
     minute: '2-digit',
