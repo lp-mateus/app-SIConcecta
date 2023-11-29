@@ -1,7 +1,7 @@
 "locale: 'pt-BR',
 height: '100%',
 titleFormat: { month: 'long' },
-dayHeaderFormat: { weekday: 'short' },
+dayHeaderFormat: { weekday: 'narrow', omitCommas: true },
 fixedWeekCount: false,
 showNonCurrentDates: false,
 navLinks: true, 
@@ -13,5 +13,5 @@ eventTimeFormat: {
 headerToolbar: {
     start: 'title', 
     center: '',
-    end: 'dayGridMonth,today prev,next' 
+    end: 'dayGridMonth prev,next' 
 }"
